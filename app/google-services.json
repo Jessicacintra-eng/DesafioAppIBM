@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "178191656886",
+    "project_id": "desafioappandroid",
+    "storage_bucket": "desafioappandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178191656886:android:2118a9ae4f66fc7a8f8317",
+        "android_client_info": {
+          "package_name": "com.ibm.desafioappandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178191656886-b8fh3883017l5fh1n7us9sbms9mtil5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibm.desafioappandroid",
+            "certificate_hash": "0dd42ea73d8a5783470887995ba01675f66f0680"
+          }
+        },
+        {
+          "client_id": "178191656886-fhe00q4gntd7pn0qcc8uf0ogss0ckklf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDugVIf9TsbhesvNrDJOIOMlnal-etHRmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178191656886-fhe00q4gntd7pn0qcc8uf0ogss0ckklf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

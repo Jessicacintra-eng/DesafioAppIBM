@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rel_anything"
+        android:layout_width="296dp"
+        android:layout_height="491dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/layout_shadow_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></RelativeLayout>
+
+    <ImageView
+        android:id="@+id/fundo"
+        android:layout_width="417dp"
+        android:layout_height="370dp"
+        android:layout_marginBottom="364dp"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@color/purple_200" />
+
+    <ImageView
+        android:id="@+id/fundo2"
+        android:layout_width="453dp"
+        android:layout_height="562dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="108dp"
+        android:background="@color/purple_200"
+        android:cropToPadding="false"
+        android:rotation="-236"
+        android:rotationX="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/fundo"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@color/purple_200" />
+
+    <Button
+        android:id="@+id/btnregister"
+        style="@style/btn"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/btncor"
+        app:backgroundTint="@null"
+        android:fontFamily="@font/ibm_plex_sans_medium"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/caixa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerpasscodeconfirmation"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <ImageView
+        android:id="@+id/caixa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_shadow_white"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/caixa"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/ibm_plex_sans"
+        android:text="Regristration form"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/caixa"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/caixa"
+        app:layout_constraintTop_toTopOf="@+id/caixa" />
+
+    <TextView
+        android:id="@+id/jatenho"
+        android:layout_width="194dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/ibm_plex_sans"
+        android:text="@string/already_have_an_account"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/caixa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregister"
+        app:layout_constraintVertical_bias="0.323"
+        tools:text="Already have an account" />
+
+    <EditText
+        android:id="@+id/nameregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic__user"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="@font/ibm_plex_sans_medium"
+        android:hint="Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/emailregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic__user"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="@font/ibm_plex_sans_medium"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/registerpasscode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameregister" />
+
+    <EditText
+        android:id="@+id/registerpasscode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="198dp"
+        android:layout_marginBottom="241dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic__643767_key_keys_main_password_privilege_icon"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="@font/ibm_plex_sans_medium"
+        android:hint="password"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/caixa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/caixa"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/registerpasscodeconfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic__643767_key_keys_main_password_privilege_icon"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="@font/ibm_plex_sans_medium"
+        android:hint="repeat password"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/caixa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerpasscode"
+        app:layout_constraintVertical_bias="0.82"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jatenho"
+        app:layout_constraintVertical_bias="0.804"
+        app:srcCompat="@drawable/ic_ibm_rebus_h_pos_black_rgb" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

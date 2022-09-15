@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DesafioAppAndroid</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="ibm_logo">ibm logo</string>
+    <string name="welcome">Welcome to IBM Intern Guide</string>
+    <string name="createaccount">Create an account!</string>
+    <string name="register">register</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">JESSICA</string>
+    <string name="menu_home">My account</string>
+    <string name="menu_gallery">Settings</string>
+    <string name="menu_slideshow">Help</string>
+    <string name="menu_logout">Logout</string>
+    <string name="already_have_an_account">Already have an account!</string>
+    <string name="yourname">Yourname</string>
+    <string name="welcome2">Welcome,</string>
+    <string name="badges">Badges</string>
+    <string name="self_paced">Self Paced</string>
+    <string name="induction">Induction</string>
+
+</resources>
